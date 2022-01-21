@@ -1,0 +1,48 @@
+{
+  "name": "cat-goalie",
+  "version": "1.0.0",
+  "description": "Game to shoot vs cat goalie.",
+  "main": "index.js",
+  "bin": {
+    "cat-goalie": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tksmasaki/cat-goalie.git"
+  },
+  "keywords": [
+    "ascii-art",
+    "cat",
+    "cli",
+    "goalie",
+    "goalkeeper",
+    "game",
+    "sports"
+  ],
+  "author": "tksmasaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tksmasaki/cat-goalie/issues"
+  },
+  "homepage": "https://github.com/tksmasaki/cat-goalie#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/eslint-parser": "^7.16.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "prettier": "^2.5.1",
+    "prettier-config-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "ansi-escape-sequences": "^6.2.0",
+    "enquirer": "^2.3.6"
+  },
+  "type": "module"
+}
